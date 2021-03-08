@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title></title>
+	<atom:link href="https://yousrahamadi.github.io/boutiqueline/feed/" rel="self" type="application/rss+xml" />
+	<link>https://yousrahamadi.github.io/boutiqueline</link>
+	<description>Un site utilisant WordPress</description>
+	<lastBuildDate>Sun, 07 Mar 2021 17:38:16 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+
+<image>
+	<url>https://yousrahamadi.github.io/boutiqueline/wp-content/uploads/2021/03/shopping.png</url>
+	<title></title>
+	<link>https://yousrahamadi.github.io/boutiqueline</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Qui sommes-nous</title>
+		<link>https://yousrahamadi.github.io/boutiqueline/qui-sommes-nous/</link>
+					<comments>https://yousrahamadi.github.io/boutiqueline/qui-sommes-nous/#respond</comments>
+		
+		<dc:creator><![CDATA[yousra]]></dc:creator>
+		<pubDate>Sun, 07 Mar 2021 17:38:12 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false">https://yousrahamadi.github.io/boutiqueline/?p=30</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://yousrahamadi.github.io/boutiqueline/qui-sommes-nous/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

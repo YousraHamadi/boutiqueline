@@ -9,3 +9,13 @@ Stack trace:
 #6 {main}
   thrown in C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\ninja-forms.php on line 1303
 
+2021-03-08T11:06:44+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\boutiqueline\wp-includes\wp-db.php on line 2056
+
+2021-03-08T11:10:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\boutiqueline\wp-includes\wp-db.php on line 2056
+
+2021-03-08T11:15:11+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\boutiqueline\wp-includes\wp-db.php on line 2056
+
+2021-03-08T11:29:52+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\boutiqueline\wp-includes\wp-db.php on line 2056
+
+2021-03-08T11:35:15+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\boutiqueline\wp-includes\wp-db.php on line 2056
+

@@ -13,4 +13,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /boutiqueline/index.php [L]
 </IfModule>
 
+php_value max_execution_time 9000
 # END WordPress
