@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>VESTE</title>
+	<atom:link href="https://yousrahamadi.github.io/boutiqueline/product-category/veste/feed/" rel="self" type="application/rss+xml" />
+	<link>https://yousrahamadi.github.io/boutiqueline</link>
+	<description>Un site utilisant WordPress</description>
+	<lastBuildDate>Thu, 11 Mar 2021 22:15:15 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+
+<image>
+	<url>https://yousrahamadi.github.io/boutiqueline/wp-content/uploads/2021/03/132441438_103991808286242_2664342591352991052_n-2.jpg</url>
+	<title>VESTE</title>
+	<link>https://yousrahamadi.github.io/boutiqueline</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>VESTE</title>
+		<link>https://yousrahamadi.github.io/boutiqueline/product/veste/</link>
+					<comments>https://yousrahamadi.github.io/boutiqueline/product/veste/#comments</comments>
+		
+		<dc:creator><![CDATA[yousra]]></dc:creator>
+		<pubDate>Thu, 11 Mar 2021 22:10:01 +0000</pubDate>
+				<guid isPermaLink="false">https://yousrahamadi.github.io/boutiqueline/?post_type=product&#038;p=2021</guid>
+
+					<description><![CDATA[<ul>
+ 	<li>Douce</li>
+ 	<li>Made in Italy</li>
+ 	<li>Taille unique (convient du 36 au 42)</li>
+ 	<li>Longueur 70 cm – Largeur 66 cm</li>
+ 	<li>Boutonnage tout le long de la veste</li>
+ 	<li>Se porte légèrement loose</li>
+ 	<li>Couleurs : mauve - <strong><a href="https://easy-clothes.com/fr/vetements-femme/5544-veste-tibba-a-carreaux-rouge-122.html">rouge</a></strong></li>
+ 	<li>Le modèle mesure 1m68 et porte habituellement une taille 36</li>
+ 	<li>Le modèle porte le jeans <strong><a href="https://easy-clothes.com/fr/vetements-femme/4808-jeans-wilfrid-blanc-108.html">Wilfrid blanc</a></strong> et le pull <strong><a href="https://easy-clothes.com/fr/vetements-femme/5455-pull-jules-blanc-120.html">Jules blanc</a></strong></li>
+ 	<li>Contexture : 100% laine</li>
+</ul>]]></description>
+										<content:encoded><![CDATA[<h2 class="product__title">VESTE TIBBA À CARREAUX</h2>
+<ul>
+<li>Manches longues</li>
+<li>Laine</li>
+<li>Douce</li>
+<li>Made in Italy</li>
+<li>Taille unique (convient du 36 au 42)</li>
+<li>Longueur 70 cm – Largeur 66 cm</li>
+<li>Boutonnage tout le long de la veste</li>
+<li>Se porte légèrement loose</li>
+<li>Couleurs : mauve &#8211; <strong><a href="https://easy-clothes.com/fr/vetements-femme/5544-veste-tibba-a-carreaux-rouge-122.html">rouge</a></strong></li>
+<li>Le modèle mesure 1m68 et porte habituellement une taille 36</li>
+<li>Le modèle porte le jeans <strong><a href="https://easy-clothes.com/fr/vetements-femme/4808-jeans-wilfrid-blanc-108.html">Wilfrid blanc</a></strong> et le pull <strong><a href="https://easy-clothes.com/fr/vetements-femme/5455-pull-jules-blanc-120.html">Jules blanc</a></strong></li>
+<li>Contexture : 100% laine</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://yousrahamadi.github.io/boutiqueline/product/veste/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

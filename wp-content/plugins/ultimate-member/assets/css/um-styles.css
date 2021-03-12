@@ -856,7 +856,7 @@ small.um-max-filesize span{
 }
 
 .um-form .um-field .um-field-area input.um-searching-username {
-	background-image: url('../img/loading.gif');
+	background-image: url('https://yousrahamadi.github.io/boutiqueline/wp-content/plugins/ultimate-member/assets/img/loading.gif');
 	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: 24px 24px;

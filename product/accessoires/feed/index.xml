@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Commentaires sur : Accessoires	</title>
+	<atom:link href="https://yousrahamadi.github.io/boutiqueline/product/accessoires/feed/" rel="self" type="application/rss+xml" />
+	<link>https://yousrahamadi.github.io/boutiqueline/product/accessoires/</link>
+	<description>Un site utilisant WordPress</description>
+	<lastBuildDate>Wed, 10 Mar 2021 15:21:23 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<item>
+		<title>
+		Par : yousra		</title>
+		<link>https://yousrahamadi.github.io/boutiqueline/product/accessoires/#comment-5</link>
+
+		<dc:creator><![CDATA[yousra]]></dc:creator>
+		<pubDate>Wed, 10 Mar 2021 15:21:22 +0000</pubDate>
+		<guid isPermaLink="false">https://yousrahamadi.github.io/boutiqueline/?post_type=product&#038;p=1937#comment-5</guid>
+
+					<description><![CDATA[nice]]></description>
+			<content:encoded><![CDATA[<p>nice</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

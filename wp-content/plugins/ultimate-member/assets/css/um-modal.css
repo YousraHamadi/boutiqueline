@@ -34,7 +34,7 @@
 }
 
 .um-popup.loading {
-	background: #fff url(../img/loading.gif) no-repeat center;
+	background: #fff url(https://yousrahamadi.github.io/boutiqueline/wp-content/plugins/ultimate-member/assets/img/loading.gif) no-repeat center;
 	min-height: 100px;
 }
 
@@ -125,7 +125,7 @@
 }
 
 .um-modal.loading .um-modal-body {
-	background: #fff url(../img/loading.gif) no-repeat center;
+	background: #fff url(https://yousrahamadi.github.io/boutiqueline/wp-content/plugins/ultimate-member/assets/img/loading.gif) no-repeat center;
 	min-height: 150px;
 }
 

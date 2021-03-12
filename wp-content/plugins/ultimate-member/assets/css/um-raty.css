@@ -2,11 +2,11 @@
   font-family: "raty";
   font-style: normal;
   font-weight: normal;
-  src: url("../font/raty.eot");
-  src: url("../font/raty.eot?#iefix") format("embedded-opentype");
-  src: url("../font/raty.svg#raty") format("svg");
-  src: url("../font/raty.ttf") format("truetype");
-  src: url("../font/raty.woff") format("woff");
+  src: url("https://yousrahamadi.github.io/boutiqueline/wp-content/plugins/ultimate-member/assets/font/raty.eot");
+  src: url("https://yousrahamadi.github.io/boutiqueline/wp-content/plugins/ultimate-member/assets/font/raty.eot#iefix") format("embedded-opentype");
+  src: url("https://yousrahamadi.github.io/boutiqueline/wp-content/plugins/ultimate-member/assets/font/raty.svg#raty") format("svg");
+  src: url("https://yousrahamadi.github.io/boutiqueline/wp-content/plugins/ultimate-member/assets/font/raty.ttf") format("truetype");
+  src: url("https://yousrahamadi.github.io/boutiqueline/wp-content/plugins/ultimate-member/assets/font/raty.woff") format("woff");
 	font-display: swap;
 }
 

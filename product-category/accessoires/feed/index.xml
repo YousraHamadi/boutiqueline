@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Accessoires</title>
+	<atom:link href="https://yousrahamadi.github.io/boutiqueline/product-category/accessoires/feed/" rel="self" type="application/rss+xml" />
+	<link>https://yousrahamadi.github.io/boutiqueline</link>
+	<description>Un site utilisant WordPress</description>
+	<lastBuildDate>Wed, 10 Mar 2021 18:09:00 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+
+<image>
+	<url>https://yousrahamadi.github.io/boutiqueline/wp-content/uploads/2021/03/132441438_103991808286242_2664342591352991052_n-2.jpg</url>
+	<title>Accessoires</title>
+	<link>https://yousrahamadi.github.io/boutiqueline</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Bracelet</title>
+		<link>https://yousrahamadi.github.io/boutiqueline/product/bracelet/</link>
+					<comments>https://yousrahamadi.github.io/boutiqueline/product/bracelet/#respond</comments>
+		
+		<dc:creator><![CDATA[yousra]]></dc:creator>
+		<pubDate>Wed, 10 Mar 2021 18:08:52 +0000</pubDate>
+				<guid isPermaLink="false">https://yousrahamadi.github.io/boutiqueline/?post_type=product&#038;p=1950</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://yousrahamadi.github.io/boutiqueline/product/bracelet/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Accessoires</title>
+		<link>https://yousrahamadi.github.io/boutiqueline/product/accessoires/</link>
+					<comments>https://yousrahamadi.github.io/boutiqueline/product/accessoires/#comments</comments>
+		
+		<dc:creator><![CDATA[yousra]]></dc:creator>
+		<pubDate>Wed, 10 Mar 2021 15:17:00 +0000</pubDate>
+				<guid isPermaLink="false">https://yousrahamadi.github.io/boutiqueline/?post_type=product&#038;p=1937</guid>
+
+					<description><![CDATA[Boucle doré]]></description>
+										<content:encoded><![CDATA[Boucle doré]]></content:encoded>
+					
+					<wfw:commentRss>https://yousrahamadi.github.io/boutiqueline/product/accessoires/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
