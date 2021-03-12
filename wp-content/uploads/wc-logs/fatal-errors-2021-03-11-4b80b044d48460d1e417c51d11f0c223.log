@@ -1,0 +1,1765 @@
+2021-03-11T08:16:06+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_process...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(724, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:16:37+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(843, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:17:44+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(844, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:18:17+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(845, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:18:37+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\base\document.php on line 810 and defined in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\base\document.php(810): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\base\document.php(535): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\base\controls-stack.php(923): Elementor\Core\Base\Document->get_initial_config()
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\editor\editor.php(527): Elementor\Controls_Stack->get_config()
+#4 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): Elementor\Core\Editor\Editor->enqueue_scripts('')
+#5 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\script-loader.php(2004): do_action('wp_enqueue_scri...')
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): wp_enqueue_scripts('')
+#9 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\general-template.php(3005): do_action('wp_head')
+#12 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php(31): wp_head()
+#13 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\editor\editor.php(322): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\editor\editor.php(163): Elementor\Core\Editor\Editor->print_editor_template()
+#15 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): Elementor\Core\Editor\Editor->init('')
+#16 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#17 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#18 C:\xampp\htdocs\boutiqueline\wp-admin\admin.php(408): do_action('admin_action_el...')
+#19 C:\xampp\htdocs\boutiqueline\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-03-11T08:18:40+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php on line 172 and defined in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(172): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(617): Elementor\Core\Files\CSS\Post->render_css()
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\base.php(166): Elementor\Core\Files\CSS\Base->parse_content()
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(131): Elementor\Core\Files\Base->update_file()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(207): Elementor\Core\Files\CSS\Base->update()
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(199): Elementor\Core\Files\CSS\Base->enqueue()
+#6 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\frontend.php(968): Elementor\Core\Files\CSS\Post->enqueue()
+#7 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\frontend.php(896): Elementor\Frontend->get_builder_content(1825)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): Elementor\Frontend->apply_builder_in_content('<h2>Au del\xC3\xA0 de...')
+#9 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(212): WP_Hook->apply_filters('<h2>Au del\xC3\xA0 de...', Array)
+#10 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1722): apply_filters('the_content', '<h2>Au del\xC3\xA0 de...')
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(505): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(1160): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(1007): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#14 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(440): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#15 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/wp/v2/pages/18...')
+#16 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#17 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#18 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#19 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#20 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp.php(745): WP->parse_request('')
+#21 C:\xampp\htdocs\boutiqueline\wp-includes\functions.php(1291): WP->main('')
+#22 C:\xampp\htdocs\boutiqueline\wp-blog-header.php(16): wp()
+#23 C:\xampp\htdocs\boutiqueline\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-03-11T08:21:08+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(846, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:21:22+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(847, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:22:10+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(848, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:22:38+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(849, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:23:22+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(850, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:23:23+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php on line 172 and defined in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(172): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(617): Elementor\Core\Files\CSS\Post->render_css()
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\base.php(166): Elementor\Core\Files\CSS\Base->parse_content()
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(131): Elementor\Core\Files\Base->update_file()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(207): Elementor\Core\Files\CSS\Base->update()
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(199): Elementor\Core\Files\CSS\Base->enqueue()
+#6 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\frontend.php(647): Elementor\Core\Files\CSS\Post->enqueue()
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): Elementor\Frontend->enqueue_styles('')
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\boutiqueline\wp-includes\script-loader.php(2004): do_action('wp_enqueue_scri...')
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): wp_enqueue_scripts('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-includes\general-template.php(3005): do_action('wp_head')
+#15 C:\xampp\htdocs\boutiqueline\wp-content\themes\astra\header.php(26): wp_head()
+#16 C:\xampp\htdocs\boutiqueline\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\boutiqueline\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#18 C:\xampp\htdocs\boutiqueline\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#19 C:\xampp\htdocs\boutiqueline\wp-content\themes\astra\page.php(20): get_header()
+#20 C:\xampp\htdocs\boutiqueline\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\boutiqueline\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\boutiqueline\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-03-11T08:26:17+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php on line 172 and defined in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(172): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(617): Elementor\Core\Files\CSS\Post->render_css()
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\base.php(166): Elementor\Core\Files\CSS\Base->parse_content()
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(131): Elementor\Core\Files\Base->update_file()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(207): Elementor\Core\Files\CSS\Base->update()
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(199): Elementor\Core\Files\CSS\Base->enqueue()
+#6 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\frontend.php(647): Elementor\Core\Files\CSS\Post->enqueue()
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): Elementor\Frontend->enqueue_styles('')
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\boutiqueline\wp-includes\script-loader.php(2004): do_action('wp_enqueue_scri...')
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): wp_enqueue_scripts('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-includes\general-template.php(3005): do_action('wp_head')
+#15 C:\xampp\htdocs\boutiqueline\wp-content\themes\astra\header.php(26): wp_head()
+#16 C:\xampp\htdocs\boutiqueline\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\boutiqueline\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#18 C:\xampp\htdocs\boutiqueline\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#19 C:\xampp\htdocs\boutiqueline\wp-content\themes\astra\page.php(20): get_header()
+#20 C:\xampp\htdocs\boutiqueline\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\boutiqueline\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\boutiqueline\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-03-11T08:26:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(851, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:27:04+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(852, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:27:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(853, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:27:28+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php on line 172 and defined in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(172): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(617): Elementor\Core\Files\CSS\Post->render_css()
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\base.php(166): Elementor\Core\Files\CSS\Base->parse_content()
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(131): Elementor\Core\Files\Base->update_file()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(207): Elementor\Core\Files\CSS\Base->update()
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(199): Elementor\Core\Files\CSS\Base->enqueue()
+#6 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\frontend.php(968): Elementor\Core\Files\CSS\Post->enqueue()
+#7 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\frontend.php(896): Elementor\Frontend->get_builder_content(1825)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): Elementor\Frontend->apply_builder_in_content('<h2>Au del\xC3\xA0 de...')
+#9 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(212): WP_Hook->apply_filters('<h2>Au del\xC3\xA0 de...', Array)
+#10 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1722): apply_filters('the_content', '<h2>Au del\xC3\xA0 de...')
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(505): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(1160): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(1007): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#14 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(440): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#15 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/wp/v2/pages/18...')
+#16 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#17 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#18 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#19 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#20 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp.php(745): WP->parse_request('')
+#21 C:\xampp\htdocs\boutiqueline\wp-includes\functions.php(1291): WP->main('')
+#22 C:\xampp\htdocs\boutiqueline\wp-blog-header.php(16): wp()
+#23 C:\xampp\htdocs\boutiqueline\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-03-11T08:27:35+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php on line 172 and defined in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(172): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(617): Elementor\Core\Files\CSS\Post->render_css()
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\base.php(166): Elementor\Core\Files\CSS\Base->parse_content()
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(131): Elementor\Core\Files\Base->update_file()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(207): Elementor\Core\Files\CSS\Base->update()
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(199): Elementor\Core\Files\CSS\Base->enqueue()
+#6 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\frontend.php(647): Elementor\Core\Files\CSS\Post->enqueue()
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): Elementor\Frontend->enqueue_styles('')
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\boutiqueline\wp-includes\script-loader.php(2004): do_action('wp_enqueue_scri...')
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): wp_enqueue_scripts('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-includes\general-template.php(3005): do_action('wp_head')
+#15 C:\xampp\htdocs\boutiqueline\wp-content\themes\astra\header.php(26): wp_head()
+#16 C:\xampp\htdocs\boutiqueline\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\boutiqueline\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#18 C:\xampp\htdocs\boutiqueline\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#19 C:\xampp\htdocs\boutiqueline\wp-content\themes\astra\page.php(20): get_header()
+#20 C:\xampp\htdocs\boutiqueline\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\boutiqueline\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\boutiqueline\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-03-11T08:27:54+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php on line 172 and defined in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(172): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(617): Elementor\Core\Files\CSS\Post->render_css()
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\base.php(166): Elementor\Core\Files\CSS\Base->parse_content()
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(131): Elementor\Core\Files\Base->update_file()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(207): Elementor\Core\Files\CSS\Base->update()
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(199): Elementor\Core\Files\CSS\Base->enqueue()
+#6 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\frontend.php(968): Elementor\Core\Files\CSS\Post->enqueue()
+#7 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\frontend.php(896): Elementor\Frontend->get_builder_content(1825)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): Elementor\Frontend->apply_builder_in_content('')
+#9 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(212): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1722): apply_filters('the_content', '')
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(836): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(1160): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(1007): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#14 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(440): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#15 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/wp/v2/pages/18...')
+#16 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#17 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#18 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#19 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#20 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp.php(745): WP->parse_request('')
+#21 C:\xampp\htdocs\boutiqueline\wp-includes\functions.php(1291): WP->main('')
+#22 C:\xampp\htdocs\boutiqueline\wp-blog-header.php(16): wp()
+#23 C:\xampp\htdocs\boutiqueline\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-03-11T08:28:16+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php on line 172 and defined in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(172): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(617): Elementor\Core\Files\CSS\Post->render_css()
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\base.php(166): Elementor\Core\Files\CSS\Base->parse_content()
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(131): Elementor\Core\Files\Base->update_file()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(207): Elementor\Core\Files\CSS\Base->update()
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(199): Elementor\Core\Files\CSS\Base->enqueue()
+#6 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\frontend.php(968): Elementor\Core\Files\CSS\Post->enqueue()
+#7 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\frontend.php(896): Elementor\Frontend->get_builder_content(1825)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): Elementor\Frontend->apply_builder_in_content('')
+#9 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(212): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1722): apply_filters('the_content', '')
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(836): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(1160): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(1007): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#14 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(440): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#15 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/wp/v2/pages/18...')
+#16 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#17 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#18 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#19 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#20 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp.php(745): WP->parse_request('')
+#21 C:\xampp\htdocs\boutiqueline\wp-includes\functions.php(1291): WP->main('')
+#22 C:\xampp\htdocs\boutiqueline\wp-blog-header.php(16): wp()
+#23 C:\xampp\htdocs\boutiqueline\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-03-11T08:28:51+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php on line 172 and defined in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(172): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(617): Elementor\Core\Files\CSS\Post->render_css()
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\base.php(166): Elementor\Core\Files\CSS\Base->parse_content()
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(131): Elementor\Core\Files\Base->update_file()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(207): Elementor\Core\Files\CSS\Base->update()
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(199): Elementor\Core\Files\CSS\Base->enqueue()
+#6 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\frontend.php(968): Elementor\Core\Files\CSS\Post->enqueue()
+#7 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\frontend.php(896): Elementor\Frontend->get_builder_content(1825)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): Elementor\Frontend->apply_builder_in_content('')
+#9 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(212): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1722): apply_filters('the_content', '')
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(836): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(1160): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(1007): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#14 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(440): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#15 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/wp/v2/pages/18...')
+#16 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#17 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#18 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#19 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#20 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp.php(745): WP->parse_request('')
+#21 C:\xampp\htdocs\boutiqueline\wp-includes\functions.php(1291): WP->main('')
+#22 C:\xampp\htdocs\boutiqueline\wp-blog-header.php(16): wp()
+#23 C:\xampp\htdocs\boutiqueline\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-03-11T08:29:56+00:00 CRITICAL Uncaught TypeError: Elementor\Elements_Manager::create_element_instance(): Argument #1 ($element_data) must be of type array, string given, called in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php on line 172 and defined in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php:68
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(172): Elementor\Elements_Manager->create_element_instance('Array')
+#1 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(617): Elementor\Core\Files\CSS\Post->render_css()
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\base.php(166): Elementor\Core\Files\CSS\Base->parse_content()
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(131): Elementor\Core\Files\Base->update_file()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\base.php(207): Elementor\Core\Files\CSS\Base->update()
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\core\files\css\post.php(199): Elementor\Core\Files\CSS\Base->enqueue()
+#6 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\frontend.php(968): Elementor\Core\Files\CSS\Post->enqueue()
+#7 C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\frontend.php(896): Elementor\Frontend->get_builder_content(1825)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): Elementor\Frontend->apply_builder_in_content('')
+#9 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(212): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1722): apply_filters('the_content', '')
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(505): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(1160): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(1007): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#14 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api\class-wp-rest-server.php(440): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#15 C:\xampp\htdocs\boutiqueline\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/wp/v2/pages/18...')
+#16 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#17 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#18 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#19 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#20 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp.php(745): WP->parse_request('')
+#21 C:\xampp\htdocs\boutiqueline\wp-includes\functions.php(1291): WP->main('')
+#22 C:\xampp\htdocs\boutiqueline\wp-blog-header.php(16): wp()
+#23 C:\xampp\htdocs\boutiqueline\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\managers\elements.php on line 68
+
+2021-03-11T08:31:09+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(854, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:32:14+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(855, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:32:52+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(856, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:35:07+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(857, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:35:39+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(858, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:36:12+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(859, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T08:36:39+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(860, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T10:25:44+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(861, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T10:27:36+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(862, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T10:28:46+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(863, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T10:30:06+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(864, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T10:30:32+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(865, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T10:36:30+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(866, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T10:36:40+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(867, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T10:36:54+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(868, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T10:38:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(869, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T13:03:54+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(870, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T13:10:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(871, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T13:11:07+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(872, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T13:13:05+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(873, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:09:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(874, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:09:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(875, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:10:14+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(876, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:16:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\woocommerce-admin\includes\connect-existing-pages.php on line 121
+
+2021-03-11T15:20:00+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(877, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:20:13+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(878, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:20:41+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(879, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:21:47+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(880, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:40:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(881, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:41:17+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(882, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:42:23+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(883, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:44:00+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(884, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:44:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(885, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:47:10+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(886, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:50:43+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(887, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:55:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(888, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:56:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(889, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:57:40+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(890, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T15:58:47+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(891, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T16:00:50+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(892, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T16:01:02+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(893, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T16:01:51+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(894, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T20:39:37+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(895, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T20:41:30+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(896, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T20:44:10+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\modules\page-templates\module.php on line 13
+
+2021-03-11T20:44:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\boutiqueline\wp-content\plugins\kliken-marketing-for-google\classes\class-wc-integration.php on line 10
+
+2021-03-11T20:45:28+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(897, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T20:45:45+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(898, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T21:35:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\boutiqueline\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-03-11T21:35:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\boutiqueline\wp-content\plugins\elementor\includes\controls\base-multiple.php on line 4
+
+2021-03-11T21:36:36+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(899, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T21:37:00+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(900, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T21:41:15+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(901, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T21:41:26+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(902, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T21:42:15+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(903, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T21:42:46+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(904, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T21:42:52+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Admin\Menus\Addons.php:127
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Admin\Menus\Addons.php(127): array_filter(NULL, Object(Closure))
+#1 [internal function]: NF_Admin_Menus_Addons::{closure}(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Admin\Menus\Addons.php(128): array_filter(Array, Object(Closure))
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Admin\Menus\Addons.php(87): NF_Admin_Menus_Addons::filterItemsByCategroy(Array, 'form-function-d...')
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Templates\admin-menu-dashboard.html.php(124): NF_Admin_Menus_Addons->display()
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\ninja-forms.php(1018): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Admin\Menus\Forms.php(239): Ninja_Forms::template('admin-menu-dash...')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): NF_Admin_Menus_Forms->display('')
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\boutiqueline\wp-admin\admin.php(259): do_action('toplevel_page_n...')
+#11 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Admin\Menus\Addons.php on line 127
+
+2021-03-11T21:42:52+00:00 CRITICAL Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Admin\Menus\Addons.php:127
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Admin\Menus\Addons.php(127): array_filter(NULL, Object(Closure))
+#1 [internal function]: NF_Admin_Menus_Addons::{closure}(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Admin\Menus\Addons.php(128): array_filter(Array, Object(Closure))
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Admin\Menus\Addons.php(87): NF_Admin_Menus_Addons::filterItemsByCategroy(Array, 'form-function-d...')
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Templates\admin-menu-dashboard.html.php(124): NF_Admin_Menus_Addons->display()
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\ninja-forms.php(1018): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Admin\Menus\Forms.php(239): Ninja_Forms::template('admin-menu-dash...')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): NF_Admin_Menus_Forms->display('')
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\boutiqueline\wp-admin\admin.php(259): do_action('toplevel_page_n...')
+#11 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Admin\Menus\Addons.php on line 127
+
+2021-03-11T21:43:20+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(905, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T21:44:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(906, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T21:45:24+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(907, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T21:46:27+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(908, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T21:49:32+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(909, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T21:53:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(910, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T21:57:30+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(911, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T22:00:54+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(912, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T22:02:04+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(913, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T22:10:26+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(914, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T22:10:40+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(915, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T22:14:27+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(916, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T22:15:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(917, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T22:16:27+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(918, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T22:17:41+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(919, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T22:18:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(920, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T22:19:31+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(921, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T22:20:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(922, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T22:22:01+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(923, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T22:23:10+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(924, 'WP Cron')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('WP Cron')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
+2021-03-11T22:26:17+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php:287
+Stack trace:
+#0 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(925, 'Async Request')
+#5 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): ActionScheduler_QueueRunner->run('Async Request')
+#7 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\boutiqueline\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 C:\xampp\htdocs\boutiqueline\wp-content\plugins\ninja-forms\includes\Libraries\BackgroundProcessing\classes\wp-async-request.php(153): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(287): WP_Async_Request->maybe_handle('')
+#12 C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\boutiqueline\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\boutiqueline\wp-admin\admin-ajax.php(184): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in C:\xampp\htdocs\boutiqueline\wp-includes\class-wp-hook.php on line 287
+
